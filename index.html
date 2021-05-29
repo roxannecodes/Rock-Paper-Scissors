@@ -2,42 +2,56 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
     <title>Rock | Paper | Scissors</title>
+
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   </head>
-  <body>
 
-<section id="title">
-<h1> Rock | Paper | Scissors </h1>
+<body>
 
-<h3> First to 5 wins!! </h3>
-</section>
+<div id="title">
+<h1> 
+  <span style="color: #24705D"> Rock. </span>
+  <span style="color:#ffb444"> Paper.</span>
+  <span style="color: #fc6464"> Scissors</span>
+ </h1>
+<h3> First to 5 wins! </h3>
+</div>
 
-<section id="icons"> 
+
+<div id="icons"> 
 <ul>
-  <li> <img src="rock.png" width="95"> </li>
-  <li><img src="paper.png" width="95"></li>
-  <li><img src="scissors.png" width="95"></li>
+  <li> <img src="rock.png" width="125"> </li>
+  <li><img src="paper.png" width="125"></li>
+  <li><img src="scissors.png" width="125"></li>
 </ul>
+</div>
+
+
+<section id="stats">
+
+<div id="results">
+ <p class="your-choice"><b>You picked: </b>  Rock</p>
+ <p class="computer-choice"><b>Computer picked:</b> Paper</p>
+  </div>
+
+
+<div id="scores">
+    <p class="your-score"><b>Your Score:</b> 3 </p>
+    <p class="computer-score"><b>Computer's Score:</b> 1 </p>
+  </div>
+
 </section>
 
-<section id="results">
- <h2>You picked:</h2>
- <h2>Computer picked:</h2>
-  </section>
-
-<section id="scores">
-  
-  <ul>
-    <li>Your Score: </li>
-    <li>Computer's Score: </li>
-  </ul>
-
-  </section>
 
 <footer>
-  
+ Made with &#9829 by Roxanne Shoar &copy 2021 | <b><a href="https://roxfolio.com">roxfolio.com</a></b>
+
+ </footer>
 
 
     <script src="script.js"></script>
