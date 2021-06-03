@@ -1,19 +1,13 @@
 
-
 body{
-
    scroll-behavior: smooth;
    text-align:center;
    align-items:center;
    font-family: 'Architects Daughter', cursive;
    background-image:url("crumpled-paper.jpg");
- 
 }
 
-
-
 #title {
-
   font-size:3em;
   position: relative;
   left: 0.25em;
@@ -25,97 +19,82 @@ body{
 }
 
 #buttons{
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items:center;
   list-style-type: none;
-  padding-bottom:1em;
-
- 
-
+  
 } 
 
 #buttons button {
+border:none;
+background-color: inherit;
 padding-left:2.5em;
 padding-right:2.5em;
 padding-bottom:0em;
 padding-top:1.75em;
-
-
 opacity: 0.8;
 justify-content: center;
 align-items:center;
-
-border:none;
-background-color: inherit
 }
 
 #buttons button img{
   border-radius:15%;
 }
 
-
-#stats {
+#choices {
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
-
-  margin-left:2em;
-
 }
 
-#stats p{
-  padding-left:4em;
-  padding-right:2em;
+#user-choice{
+  text-align:none;
+  
+  position: relative;
+  right:1.75em;
+}
+
+#comnputer-choice{
+
 }
 
 #scores  {
-
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-
-  margin-left:2em;
-  padding-bottom:2em;
-
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+margin-left:2em;
+padding-bottom:2em;
+ color: gray;
+  font-size: 1.2em;
+  font-weight:bold;
+  padding-top:1em;
 }
 
 #scores p {
+text-align:center;
 padding-left:2em;
 padding-right:2em;
-
-
-}
-
-
-#user-choice{
-position: relative;
-right:1.75em;
-
-}
-
-#computer-choice{
-
 }
 
 #user-score{
 position: relative;
-right:2.75em;
+right:1em;
 }
 
 #computer-score{
 position: relative;
-left:2.5em;
+left:2em;
 }
 
 /* MQ--mobile portriat */
 
-@media (min-width: 320px) and (max-width: 480px){
-#user-choice{
-position: relative;
-right:3em;
+@media screen and (max-width: 480px){
+
+ #user-choice{
+ position: relative;
+ right:3em;
 }
 
 #computer-choice{
@@ -124,12 +103,13 @@ right:3em;
 }
 #user-score{
   position: relative;
-  right:1.75em;
+  right:2em;
 
 }
 
 #computer-score{
   position: relative;
+  right:0;
   left:0;
 }
 
