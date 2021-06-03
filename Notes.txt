@@ -1,0 +1,55 @@
+
+
+
+*** FIRST add event listeners to take in the users choice (program buttons) and initialize the program
+
+
+
+*** play one round, but return score and selections after every hand (4) and print them to:
+- 
+
+
+via --> parent.appendChild( )
+
+ex: 
+let computerChoice =document.querySelector("computer-choice"); (before function)
+
+ computerChoice.textContent = computerPlay(choices)\; (during )
+
+
+
+let userChoice =document.querySelector ("user-choice")
+
+
+let computerScore = document.querySelector ("computer-score")
+
+
+
+
+
+_______________________________________________________________________________
+
+*** LAST: display the results (in the sub-title element)
+
+//while loop
+ while (userScore && computerScore <5){gamePlay(userPlay,computerPlay)};
+}
+
+
+function displayResults(userScore){
+ return (userScore ===5) ? "Congrats, you won!!!" : "sorry, you lost :("
+}
+
+---
+
+let sub-title = document.querySelector ("sub-title");
+
+
+let results =document.createElement ("results");
+
+results.textContent=displayResults(userScore);
+
+
+let parent = document.querySelector("title-parent");
+parent.replaceChild (results, sub-title);
+

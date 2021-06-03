@@ -12,41 +12,35 @@ body{
 
 
 
-#title h1{
+#title {
 
   font-size:3em;
   position: relative;
   left: 0.25em;
 }
 
-#title h3{
+#sub-title {
   color: gray;
-  font-size:1.5em;
+  font-size: 1.5em;
 }
 
-#icons{
-  align-items:center;
-  justify-content: center;
+#buttons{
 
-}
-
-#icons ul{
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items:center;
   list-style-type: none;
+  padding-bottom:1em;
 
-  position: relative;
-  right:1em;
+ 
 
-}
+} 
 
-#icons  li {
+#buttons button {
 padding-left:2.5em;
 padding-right:2.5em;
-padding-bottom:1em;
+padding-bottom:0em;
 padding-top:1.75em;
 
 
@@ -54,15 +48,16 @@ opacity: 0.8;
 justify-content: center;
 align-items:center;
 
-
+border:none;
+background-color: inherit
 }
 
-#icons img{
+#buttons button img{
   border-radius:15%;
 }
 
 
-#results {
+#stats {
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
@@ -71,7 +66,7 @@ align-items:center;
 
 }
 
-#results p{
+#stats p{
   padding-left:4em;
   padding-right:2em;
 }
@@ -91,43 +86,49 @@ align-items:center;
 padding-left:2em;
 padding-right:2em;
 
-}
-
-
-.your-choice{
-
 
 }
 
-.computer-choice{
 
-}
-
-.your-score{
+#user-choice{
 position: relative;
 right:1.75em;
+
 }
 
-.computer-score{
+#computer-choice{
+
+}
+
+#user-score{
 position: relative;
-left:1.75em;
+right:2.75em;
+}
+
+#computer-score{
+position: relative;
+left:2.5em;
 }
 
 /* MQ--mobile portriat */
 
 @media (min-width: 320px) and (max-width: 480px){
-.your-choice{
+#user-choice{
 position: relative;
-right:1.75em;
+right:3em;
 }
 
-.your-score{
+#computer-choice{
   position: relative;
-  right:1.5em;
+  right: 1.75em;
+}
+#user-score{
+  position: relative;
+  right:1.75em;
 
 }
 
-.computer-score{
+#computer-score{
   position: relative;
   left:0;
 }
@@ -159,4 +160,8 @@ width:100%;
 footer a{
   text-decoration:none;
   color:black;
+}
+
+@media screen and (min-width: 1024px){
+
 }

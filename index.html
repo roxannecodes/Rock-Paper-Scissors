@@ -6,51 +6,49 @@
  
     <title>Rock | Paper | Scissors</title>
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" >
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   </head>
 
 <body>
 
-<div id="title">
-<h1> 
+<div class= "parent-title">
+
+<h1 id="title"> 
   <span style="color: #24705D"> Rock. </span>
   <span style="color:#ffb444"> Paper.</span>
   <span style="color: #fc6464"> Scissors</span>
  </h1>
-<h3> First to 5 wins! </h3>
+
+<h3 id="sub-title"> First to 5 wins! </h3>
 </div>
 
 
-<div id="icons"> 
-<ul>
-  <li> <img src="rock.png" width="125"> </li>
-  <li><img src="paper.png" width="125"></li>
-  <li><img src="scissors.png" width="125"></li>
-</ul>
+<div id="buttons"> 
+  <button  class="btn" id="rock" > <img src="rock.png" width="155"> </button>
+  <button class="btn" id="paper"><img src="paper.png" width="155"></button>
+  <button class="btn"  id="scissors"><img src="scissors.png" width="155"></button>
+
 </div>
 
 
-<section id="stats">
-
-<div id="results">
- <p class="your-choice"><b>You picked: </b>  Rock</p>
- <p class="computer-choice"><b>Computer picked:</b> Paper</p>
+<div id="stats">
+    <p id="user-choice">You picked:</p>
+    <p id="computer-choice">Computer picked:</p>
   </div>
 
 
 <div id="scores">
-    <p class="your-score"><b>Your Score:</b> 3 </p>
-    <p class="computer-score"><b>Computer's Score:</b> 1 </p>
+    <p id="user-score">Your Score:</p>
+    <p id="computer-score">Computer's Score: </p>
   </div>
 
-</section>
+
 
 
 <footer>
  Made with &#9829 by Roxanne Shoar &copy 2021 | <b><a href="https://roxfolio.com">roxfolio.com</a></b>
-
  </footer>
 
 
