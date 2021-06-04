@@ -5,6 +5,7 @@ body{
    align-items:center;
    font-family: 'Architects Daughter', cursive;
    background-image:url("crumpled-paper.jpg");
+   background-size: cover;
 }
 
 #title {

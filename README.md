@@ -1,5 +1,5 @@
 # Rock, Paper, Scissors
-## Project:
+### Project:
  - Objective: to program and design a five round game of rock paper scissors.
 - Time-frame:
 ~ 20 hrs (CSS:5, JS:15).
