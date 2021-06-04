@@ -1,5 +1,8 @@
 
 # Rock, Paper, Scissors
+![project-RPS](https://user-images.githubusercontent.com/83316514/120831592-b53ff580-c52d-11eb-8a27-caaab4906bef.JPG)
+
+## Project:
  - Objective: to program and design a five round game of rock paper scissors.
 - Time-frame:
 ~ 20 hrs (CSS:5, JS:15).
