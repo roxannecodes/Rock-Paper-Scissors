@@ -9,6 +9,6 @@
 - DOM modification methods to connect the GUI with the program of the game.
 - Efficient development and utilization of helper functions.
 
-### Demo 👉https://rock-paper-scissors.roxannecodes.repl.co/
+### Demo 👉https://rock-paper-scissors.github.io
 
 This Project is part of The Odin Project curriculum: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors
