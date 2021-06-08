@@ -144,6 +144,13 @@ footer a{
   color:black;
 }
 
-@media screen and (min-width: 1024px){
 
+@media only screen and (min-width: 1000px) {
+      html {
+        zoom: 1;
+      }
+
+      body{
+        padding-top:3em;
+      }
 }
