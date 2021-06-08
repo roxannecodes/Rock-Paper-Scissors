@@ -6,6 +6,7 @@ body{
    font-family: 'Architects Daughter', cursive;
    background-image:url("crumpled-paper2.jpg");
    background-size: cover;
+   padding-top:1em;
  
 }
 
@@ -94,6 +95,11 @@ left:2em;
 
 @media screen and (max-width: 480px){
 
+body{
+padding-top:0;
+}
+
+
  #user-choice{
  position: relative;
  right:3em;
@@ -146,11 +152,14 @@ footer a{
 
 
 @media only screen and (min-width: 1000px) {
-      html {
-        zoom: 1;
-      }
 
-      body{
-        padding-top:3em;
-      }
+
+  body{
+  
+
+   zoom: 120%;
+  }
+
+    
+    
 }
