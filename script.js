@@ -93,7 +93,7 @@ else if (compScore===5){
  us.innerHTML= "Your Score: "+ userScore;
  cs.innerHTML= "Computer's Score: "+ compScore;
  //end game when comp wins
- alert("Game over: press f5 to play again");
+ alert("Game Over: Press F5 or refresh browser to play again");
  }
    
 }

@@ -6,6 +6,7 @@ body{
    font-family: 'Architects Daughter', cursive;
    background-image:url("crumpled-paper2.jpg");
    background-size: cover;
+   background-repeat: none;
    padding-top:1em;
  
 }
