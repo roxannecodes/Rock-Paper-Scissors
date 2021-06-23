@@ -81,6 +81,13 @@ background-color:rgb(196, 190, 190);
 width:100%;
 }
 
+/* MQ-- PC */
+
+@media screen and (min-width: 1024px){
+  body {
+    zoom:1.1;
+  }
+}
 
 /* MQ--mobile portriat */
 
