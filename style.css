@@ -84,9 +84,12 @@ width:100%;
 /* MQ-- PC */
 
 @media screen and (min-width: 1024px){
-  body {
-    zoom:1.1;
-  }
+#grid {
+  padding-top:50px;
+}
+#grid  p {
+  font-size:20px;
+}
 }
 
 /* MQ--mobile portriat */
@@ -102,8 +105,12 @@ padding-top:0;
   grid-template-columns: repeat (1, 1fr);
   grid-template-rows:auto;
   max-width:300px;
-
+  grid-gap:auto;
 }
+#user-choice, #user-score {
+position: relative;
+right:15px;
+} 
 
 footer {
   position: relative;
