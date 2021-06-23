@@ -62,13 +62,13 @@ if (userScore<5 && compScore<5){
  }
   else if (userSelect==="rock" && compSelect==="scissors"){
   userScore +=1;
-  results.innerHTML= "You won: rock beats scissors.😄";
+  results.innerHTML= "You won: rock beats scissors😄";
   cs.innerHTML= "Computer's Score: "+ compScore;
   us.innerHTML= "Your Score: "+ userScore;
  }
   else if (userSelect==="scissors" && compSelect==="paper"){
   userScore +=1;
-  results.innerHTML= "You won: scissors beats paper.😄";
+  results.innerHTML= "You won:scissors beats paper😄";
   cs.innerHTML= "Computer's Score: "+ compScore;
   us.innerHTML= "Your Score: "+ userScore;
  }else{

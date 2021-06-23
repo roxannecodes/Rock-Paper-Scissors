@@ -30,6 +30,7 @@ body{
   justify-content: center;
   align-items:center;
   list-style-type: none;
+  max-width:600px;
   
 } 
 
@@ -47,6 +48,7 @@ align-items:center;
 
 #buttons button img{
   border-radius:15%;
+
 }
 
 
@@ -109,7 +111,9 @@ padding-top:0;
 }
 
 
+
 #grid {
+  flex-direction: column;
   padding-top:50px;
   grid-template-columns: repeat (1, 1fr);
   grid-template-rows:auto;
