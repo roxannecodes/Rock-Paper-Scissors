@@ -50,7 +50,7 @@ align-items:center;
 }
 
 #grid {
-padding-top:25px;
+padding-top:50px;
 padding-bottom: 25px;
 display:grid;
 grid-template-columns: repeat(2, 1fr);
@@ -61,7 +61,7 @@ grid-column-gap: 3em;
 
 #user-choice, #user-score {
 position: relative;
-right:25px;
+right:35px;
 } 
 
 #computer-choice, #computer-score {
@@ -71,18 +71,14 @@ right:25px;
 
 
 footer { 
-padding:0.2em;
+padding:0.4em;
 font-size:18px;
-position:fixed;
+overflow: hidden;
+position: fixed;
 left:0;
 bottom:0;
 background-color:rgb(196, 190, 190);
 width:100%;
-}
-
-footer a {
-  text-decoration:none;
-  color:black;
 }
 
 
@@ -99,8 +95,14 @@ padding-top:0;
   grid-template-columns: repeat (1, 1fr);
   grid-template-rows:auto;
   max-width:300px;
-  
 
 }
+
+footer {
+  position: relative;
+  bottom:0;
+  left:0;
+}
+
 
 } 
