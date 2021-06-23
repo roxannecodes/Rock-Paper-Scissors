@@ -8,6 +8,8 @@ body{
    background-size: cover;
    background-repeat: none;
    padding-top:1em;
+   display: flex;
+   flex-direction: column;
  
 }
 
@@ -47,50 +49,42 @@ align-items:center;
   border-radius:15%;
 }
 
-#choices {
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
+#grid {
+padding-top:25px;
+padding-bottom: 25px;
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+max-width:750px;
+grid-column-gap: 3em;
 }
 
-#user-choice{
-  text-align:none;
-  
+#user-choice, #user-score {
+position: relative;
+right:25px;
+} 
+
+#computer-choice, #computer-score {
   position: relative;
-  right:1.75em;
+  left:25px;
 }
 
-#comnputer-choice{
 
+footer { 
+padding:0.2em;
+font-size:18px;
+position:fixed;
+left:0;
+bottom:0;
+background-color:rgb(196, 190, 190);
+width:100%;
 }
 
-#scores  {
-display:flex;
-flex-wrap:wrap;
-justify-content: center;
-margin-left:2em;
-padding-bottom:2em;
- color: gray;
-  font-size: 1.2em;
-  font-weight:bold;
-  padding-top:1em;
+footer a {
+  text-decoration:none;
+  color:black;
 }
 
-#scores p {
-text-align:center;
-padding-left:2em;
-padding-right:2em;
-}
-
-#user-score{
-position: relative;
-right:1em;
-}
-
-#computer-score{
-position: relative;
-left:2em;
-}
 
 /* MQ--mobile portriat */
 
@@ -100,67 +94,13 @@ body{
 padding-top:0;
 }
 
-
- #user-choice{
- position: relative;
- right:3em;
-}
-
-#computer-choice{
-  position: relative;
-  right: 1.75em;
-}
-#user-score{
-  position: relative;
-  right:2em;
-
-}
-
-#computer-score{
-  position: relative;
-  right:0;
-  left:0;
-}
-
-
-}
-
-
-
-/* footer */
-footer{
-
-padding:0.2em;
-
-font-size:12px;
-position:fixed;
-left:0;
-bottom:0;
-
-   
-background-color:rgb(196, 190, 190);
-
-width:100%;
-
-
-
-}
-
-footer a{
-  text-decoration:none;
-  color:black;
-}
-
-
-@media only screen and (min-width: 1000px) {
-
-
-  body{
+#grid {
+  padding-top:50px;
+  grid-template-columns: repeat (1, 1fr);
+  grid-template-rows:auto;
+  max-width:300px;
   
 
-   zoom: 120%;
-  }
-
-    
-    
 }
+
+} 

@@ -8,17 +8,17 @@ document.getElementById("scissors").onclick= playScissors;
 let uc=document.getElementById("user-choice");
 
 function playRock (){
-  //uc.innerHTML= "You: Rock";
+  uc.innerHTML= "Your Selection: Rock";
   playRound("rock");  
 }
 
 function playPaper (){
-  //uc.innerHTML= "You: Paper";
+  uc.innerHTML= "Your Selection: Paper";
   playRound ("paper");
 }
 
 function playScissors (){
-  //uc.innerHTML= "You: Scissors";
+  uc.innerHTML= "Your Selection: Scissors";
   playRound ("scissors");
 }
 
@@ -29,7 +29,7 @@ let choices = ["rock", "paper", "scissors"];
 function computerPlay (choices){
  let randomIndex = Math.floor (Math.random() * 3);
  let randomChoice = choices [randomIndex];
- //cc.innerHTML= "Computer: " + randomChoice;
+ cc.innerHTML= "Computer's Selection: " + randomChoice;
  return randomChoice;
 }
 
@@ -86,7 +86,7 @@ else if (userScore==5){
   cs.innerHTML= "Computer's Score: "+ compScore;
   us.innerHTML= "Your Score: "+ userScore;
   //end game when user wins
-  alert("Game over: press f5 to play again");
+  alert("Game Over: Refresh browser or press F5 to play again.");
 }
 else if (compScore===5){
  results.innerHTML= "Game Over: You lost.😿";
