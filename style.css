@@ -88,6 +88,7 @@ width:100%;
 #grid {
   padding-top:50px;
 }
+
 #grid  p {
   font-size:20px;
 }
@@ -97,7 +98,7 @@ width:100%;
 
 @media screen and (max-width: 480px){
 
-body{
+body {
 padding-top:0;
 }
 
