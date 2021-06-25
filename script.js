@@ -86,7 +86,7 @@ else if (userScore==5){
   cs.innerHTML= "Computer's Score: "+ compScore;
   us.innerHTML= "Your Score: "+ userScore;
   //end game when user wins
-  alert("Game Over: Refresh browser or press F5 to play again.");
+  alert("Game Over: Refresh your browser to play again 🙃. ");
 }
 else if (compScore===5){
  results.innerHTML= "Game Over: You lost.😿";
