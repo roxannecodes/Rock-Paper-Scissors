@@ -1,14 +1,14 @@
 # Rock, Paper, Scissors
 ### Demo 👉https://roxannecodes.github.io/Rock-Paper-Scissors/
 ### Project:
- - We were initially asked to write the code for a single round of rock paper scissors on the console, and in a subsequent lesson were asked to write a program for a 5 round game and connect it with a GUI.
+ - We were initially asked to write the code for a single round of rock paper scissors on the console, and then were asked to write a program for a 5 round game and connect it with a GUI in a subsequent lesson.
 
- - This was my FIRST real project, and although the curriculum instruction was limited, I thoroughly enjoyed the trial and errors that finally lead me to this solution :)
+ - This was my FIRST real project, and although the curriculum instruction was limited, I thoroughly enjoyed the trials and errors that eventually lead me to this solution :)
 
 
 - Time-frame: ~ 20 hrs (CSS:5, JS:15).
 
-*** UPDATE: added a feature to also display the user's and computer's selection after each round (above the scores) ***
+*** UPDATE: added a feature to also display the user's and computer's selection after each round ***
 
 ### Learning points:
 
