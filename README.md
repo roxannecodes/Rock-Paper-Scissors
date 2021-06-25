@@ -3,11 +3,10 @@
 ### Project:
  - We were initially asked to write the code for a single round of rock paper scissors on the console, and in a subsequent lesson were asked to write a program for a 5 round game and connect it with a GUI.
 
- - This was my FIRST real project, and although the curriculum instruction was limited, I thoroughly enjoyed the trial and errors that finally lead me to the solution :)
+ - This was my FIRST real project, and although the curriculum instruction was limited, I thoroughly enjoyed the trial and errors that finally lead me to this solution :)
 
 
-- Time-frame:
-~ 20 hrs (CSS:5, JS:15).
+- Time-frame: ~ 20 hrs (CSS:5, JS:15).
 
 *** UPDATE: added a feature to also display the user's and computer's selection after each round (above the scores) ***
 
@@ -16,7 +15,8 @@
 - DOM modification methods to connect the GUI with the program of the game.
 - Efficient development and utilization of helper functions.
 - Programming buttons with event listeners and application of event handlers
-- CSS grid
+- Git (and the importance of version control)
+- Responsive layouts using flexbox, CSS grid, and media queries.
 
 
 This Project is part of The Odin Project curriculum: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors
