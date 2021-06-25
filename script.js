@@ -86,14 +86,14 @@ else if (userScore==5){
   cs.innerHTML= "Computer's Score: "+ compScore;
   us.innerHTML= "Your Score: "+ userScore;
   //end game when user wins
-  alert("Game Over: Refresh your browser to play again 🙃. ");
+  alert("Game Over: Press refresh to play again 🙃");
 }
 else if (compScore===5){
  results.innerHTML= "Game Over: You lost.😿";
  us.innerHTML= "Your Score: "+ userScore;
  cs.innerHTML= "Computer's Score: "+ compScore;
  //end game when comp wins
- alert("Game Over: Press refresh play again 🙃");
+ alert("Game Over: Press refresh to play again 🙃");
  }
    
 }
