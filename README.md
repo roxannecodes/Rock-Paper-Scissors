@@ -21,5 +21,9 @@
 
 This Project is part of The Odin Project curriculum: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors
 
+_____
+### Screen Shot:
+
+
 <img width="723" alt="Screen Shot 2021-06-28 at 1 52 19 PM" src="https://user-images.githubusercontent.com/83316514/123681942-66c60400-d818-11eb-969b-2902a9a2c2bc.png">
 
