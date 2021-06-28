@@ -24,6 +24,8 @@ body{
   font-size: 1.5em;
 }
 
+
+
 #buttons{
   display: flex;
   flex-wrap: wrap;
@@ -52,12 +54,16 @@ align-items:center;
 
 #grid {
 padding-top:50px;
-padding-bottom: 25px;
+padding-bottom: 50px;
 display:grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(2, 1fr);
 max-width:750px;
 grid-column-gap: 3em;
+}
+
+#grid  p {
+  font-size:20px;
 }
 
 #user-choice, #user-score {
@@ -82,24 +88,30 @@ background-color:rgb(196, 190, 190);
 width:100%;
 }
 
-/* MQ-- PC */
+/* Media Queries */
 
-@media screen and (min-width: 1024px){
-#grid {
-  padding-top:50px;
+/* tablets */
+
+@media screen and (max-width: 767px) {
+  body {
+    padding-top:0px;
+  }
+#title {
+  font-size:4em;
+  width:400px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content:center;
+
 }
 
-#grid  p {
-  font-size:20px;
-}
-}
+/* mobile */
 
-/* MQ--mobile portriat */
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 575px){
 
 body {
-padding-top:0;
+padding-top:0px;
 }
 
 #title {
@@ -109,24 +121,30 @@ padding-top:0;
   font-weight:bold;
 }
 
+#sub-title {
+  color: gray;
+  font-size: 1.5em;
+}
 
 #grid {
-  padding-top:50px;
+  padding-top:10px;
   grid-template-columns: repeat (1, 1fr);
   grid-template-rows:auto;
   max-width:300px;
   grid-gap:auto;
+  padding-bottom:50px;
 }
 #user-choice, #user-score {
 position: relative;
 right:15px;
 } 
 
+
 footer {
   position: relative;
   bottom:0;
   left:0;
-  top:4px;
+  top:5px;
   font-size:14px;
 }
 } 
